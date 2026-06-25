@@ -8,14 +8,13 @@ const siteContent = {
     affiliation: "重庆邮电大学现代邮政学院",
     location: "中国 重庆",
     summaryHtml:
-      '我是重庆邮电大学现代邮政学院文峰副教授，东南大学交通运输博士。主要研究方向包括 <a href="https://scholar.google.com.hk/citations?view_op=search_authors&hl=zh-CN&mauthors=label:unmanned_system" target="_blank" rel="noreferrer">Unmanned System</a>, <a href="https://scholar.google.com.hk/citations?view_op=search_authors&hl=zh-CN&mauthors=label:intelligent_freight" target="_blank" rel="noreferrer">Intelligent freight</a>, <a href="https://scholar.google.com.hk/citations?view_op=search_authors&hl=zh-CN&mauthors=label:low_altitude_transportation" target="_blank" rel="noreferrer">Low-altitude transportation</a> 等。',
+      '我是重庆邮电大学现代邮政学院文峰副教授，东南大学交通运输博士。主要研究方向包括Unmanned System,Intelligent freight, Low-altitude transportation 等。',
     headings: {
       about: "个人简介",
       research: "研究方向",
       publications: "代表性论文",
       dissertation: "博士论文",
       education: "教育经历",
-      contact: "联系"
     },
     contacts: [
       { label: "Email", value: "luwb@cqupt.edu.cn", href: "mailto:luwb@cqupt.edu.cn" },
@@ -142,14 +141,13 @@ const siteContent = {
     affiliation: "School of Modern Posts, Chongqing University of Posts and Telecommunications",
     location: "Chongqing, China",
     summaryHtml:
-      'I am a Wenfeng Associate Professor at the School of Modern Posts, Chongqing University of Posts and Telecommunications. I received my Ph.D. in Transportation from Southeast University. My research interests include <a href="https://scholar.google.com.hk/citations?view_op=search_authors&hl=zh-CN&mauthors=label:unmanned_system" target="_blank" rel="noreferrer">Unmanned System</a>, <a href="https://scholar.google.com.hk/citations?view_op=search_authors&hl=zh-CN&mauthors=label:intelligent_freight" target="_blank" rel="noreferrer">Intelligent freight</a>, and <a href="https://scholar.google.com.hk/citations?view_op=search_authors&hl=zh-CN&mauthors=label:low_altitude_transportation" target="_blank" rel="noreferrer">Low-altitude transportation</a>.',
+      "I am a Wenfeng Associate Professor at the School of Modern Posts, Chongqing University of Posts and Telecommunications. I received my Ph.D. in Transportation from Southeast University. My research interests include Unmanned System, Intelligent freight, and Low-altitude transportation.",
     headings: {
       about: "About Me",
       research: "Research Interests",
       publications: "Selected Publications",
       dissertation: "Doctoral Dissertation",
       education: "Education",
-      contact: "Contact"
     },
     contacts: [
       { label: "Email", value: "luwb@cqupt.edu.cn", href: "mailto:luwb@cqupt.edu.cn" },
@@ -264,7 +262,5 @@ const siteContent = {
         "Optimizing coordinated on-street and off-street temporary loading-zone layouts."
       ]
     },
-    updateNote:
-      "Maintenance note: edit content.js to update the site. After deployment on GitHub Pages, external visitors can view it online."
   }
 };
