@@ -4,11 +4,11 @@ const siteContent = {
     langLabel: "中文 / EN",
     name: "鲁文博",
     altName: "Wenbo Lu",
-    title: "文峰副教授",
+    title: "文峰副教授(讲师)",
     affiliation: "重庆邮电大学现代邮政学院",
     location: "中国 重庆",
     summaryHtml:
-      '我是重庆邮电大学现代邮政学院文峰副教授，东南大学交通运输博士。主要研究方向包括Unmanned System,Intelligent freight, Low-altitude transportation 等。',
+      '我是重庆邮电大学现代邮政学院文峰副教授(讲师)，东南大学交通运输博士。主要研究方向包括Unmanned System,Intelligent freight, Low-altitude transportation 等。',
     headings: {
       about: "个人简介",
       research: "研究方向",
@@ -135,11 +135,11 @@ const siteContent = {
     langLabel: "EN / 中文",
     name: "Wenbo Lu",
     altName: "鲁文博",
-    title: "Wenfeng Associate Professor",
+    title: "Wenfeng Associate Professor(Lecturer)",
     affiliation: "School of Modern Posts, Chongqing University of Posts and Telecommunications",
     location: "Chongqing, China",
     summaryHtml:
-      "I am a Wenfeng Associate Professor at the School of Modern Posts, Chongqing University of Posts and Telecommunications. I received my Ph.D. in Transportation from Southeast University. My research interests include Unmanned System, Intelligent freight, and Low-altitude transportation.",
+      "I am a Wenfeng Associate Professor(Lecturer) at the School of Modern Posts, Chongqing University of Posts and Telecommunications. I received my Ph.D. in Transportation from Southeast University. My research interests include Unmanned System, Intelligent freight, and Low-altitude transportation.",
     headings: {
       about: "About Me",
       research: "Research Interests",
