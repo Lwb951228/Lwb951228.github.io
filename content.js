@@ -51,8 +51,6 @@ const siteContent = {
       { period: "2018.09 - 2021.06", place: "长安大学运输工程学院", degree: "交通运输工程 硕士" },
       { period: "2014.09 - 2018.06", place: "西安建筑科技大学土木工程学院", degree: "交通工程 学士" }
     ],
-    publicationsIntro:
-      "代表性论文按年份排列。后续只需在 content.js 的 publications 数组中追加条目并填写 year 字段，网页会自动分组显示。",
     publications: [
       {
         year: "2026",
@@ -187,8 +185,6 @@ const siteContent = {
       { period: "2018.09 - 2021.06", place: "Chang'an University", degree: "M.Sc., Transportation Engineering" },
       { period: "2014.09 - 2018.06", place: "Xi'an University of Architecture and Technology", degree: "B.Eng., Traffic Engineering" }
     ],
-    publicationsIntro:
-      "Selected publications grouped by year. To add future work, append a publication object with a year field in content.js and the page will group it automatically.",
     publications: [
       {
         year: "2026",
