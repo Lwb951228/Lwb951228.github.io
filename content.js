@@ -131,7 +131,7 @@ const siteContent = {
     },
   },
   en: {
-    nav: ["Home", "Research", "Publications", "Education", "Contact"],
+    nav: ["Home", "Research", "Publications", "Education"],
     langLabel: "EN / 中文",
     name: "Wenbo Lu",
     altName: "鲁文博",
@@ -184,9 +184,9 @@ const siteContent = {
     publications: [
       {
         year: "2026",
-        tag: "In press",
+        tag: "Electric Power Systems Research",
         text:
-          "Xu J, Luo Y, Lu W, et al. Optimization of Group-Based UAV-Vehicle Systems for Power Inspection with Wind Effects and Terminal Pickup Mode. 2026, In press."
+          "Xu J, Luo Y, Lu W, et al. Optimization of Group-Based UAV-Vehicle Systems for Power Inspection with Wind Effects and Terminal Pickup Mode. Electric Power Systems Research, 260, 113309."
       },
       {
         year: "2025",
