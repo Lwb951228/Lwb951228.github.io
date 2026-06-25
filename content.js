@@ -129,8 +129,6 @@ const siteContent = {
         "构建路内、路外临时停靠点协同布局多目标优化模型。"
       ]
     },
-    updateNote:
-      "更新提示：修改 content.js 即可维护网页内容；上传到 GitHub Pages 后，外部访问者可直接查看。"
   },
   en: {
     nav: ["Home", "Research", "Publications", "Education", "Contact"],
