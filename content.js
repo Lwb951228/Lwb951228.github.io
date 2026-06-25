@@ -148,9 +148,9 @@ const siteContent = {
       education: "Education",
     },
     contacts: [
-      { label: "Email", value: "luwb@cqupt.edu.cn", href: "mailto:luwb@cqupt.edu.cn" },
+      { label: "Email", value: "luwb@cqupt.edu.cn" },
       { label: "ORCID", value: "0000-0003-3697-1493", href: "https://orcid.org/0000-0003-3697-1493" },
-      { label: "Google Scholar", value: "Wenbo Lu", href: "https://scholar.google.com/scholar?q=Wenbo+Lu+transportation" }
+      { label: "Google Scholar", value: "Wenbo Lu", href: "https://scholar.google.com.hk/citations?hl=zh-CN&user=8gVNtwsAAAAJ&view_op=list_works&sortby=pubdate" }
     ],
     research: [
       {
