@@ -13,6 +13,11 @@ function render() {
     node.textContent = content[key] || "";
   });
 
+  document.querySelectorAll("[data-heading]").forEach((node) => {
+    const key = node.dataset.heading;
+    node.textContent = content.headings[key] || "";
+  });
+
   $(".language-toggle").textContent = content.langLabel;
   $(".nav").innerHTML = content.nav
     .map((item, index) => {
@@ -25,12 +30,8 @@ function render() {
     .map((item) => `<a href="${item.href}" target="_blank" rel="noreferrer"><span>${item.label}</span>${item.value}</a>`)
     .join("");
 
-  $(".metrics").innerHTML = content.metrics
-    .map((item) => `<div><strong>${item.value}</strong><span>${item.label}</span></div>`)
-    .join("");
-
-  $(".research-grid").innerHTML = content.research
-    .map((item) => `<article class="research-card"><h3>${item.title}</h3><p>${item.text}</p></article>`)
+  $(".research-list").innerHTML = content.research
+    .map((item) => `<li><strong>${item.title}.</strong> ${item.text}</li>`)
     .join("");
 
   const groupedPublications = content.publications.reduce((groups, item) => {
@@ -55,7 +56,6 @@ function render() {
     )
     .join("");
 
-  $("#dissertation-title").textContent = content.dissertation.title;
   $(".dissertation-card h3").textContent = content.dissertation.name;
   $(".dissertation-card ul").innerHTML = content.dissertation.points
     .map((item) => `<li>${item}</li>`)

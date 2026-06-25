@@ -9,15 +9,18 @@ const siteContent = {
     location: "中国 重庆",
     summary:
       "研究方向包括无人系统规划控制、人工智能在物流与交通领域的应用，以及城市货运电气化。博士阶段围绕城市绿色货运配送、新能源车辆轨迹数据挖掘、轨道交通客流预测与无人机-车辆协同优化开展研究。",
+    headings: {
+      about: "个人简介",
+      research: "研究方向",
+      publications: "代表性论文",
+      dissertation: "博士论文",
+      education: "教育经历",
+      contact: "联系"
+    },
     contacts: [
       { label: "Email", value: "luwb@cqupt.edu.cn", href: "mailto:luwb@cqupt.edu.cn" },
       { label: "ORCID", value: "0000-0003-3697-1493", href: "https://orcid.org/0000-0003-3697-1493" },
       { label: "Google Scholar", value: "Wenbo Lu", href: "https://scholar.google.com/scholar?q=Wenbo+Lu+transportation" }
-    ],
-    metrics: [
-      { value: "20", label: "发表论文" },
-      { value: "9", label: "第一/通讯作者论文" },
-      { value: "50+", label: "累计影响因子" }
     ],
     research: [
       {
@@ -136,15 +139,18 @@ const siteContent = {
     location: "Chongqing, China",
     summary:
       "My research interests include unmanned-system planning and control, artificial intelligence for logistics and transportation, and the electrification of urban freight delivery. My doctoral research spans urban green freight delivery, electric-vehicle trajectory mining, metro passenger-flow prediction, and UAV-vehicle collaborative optimization.",
+    headings: {
+      about: "About Me",
+      research: "Research Interests",
+      publications: "Selected Publications",
+      dissertation: "Doctoral Dissertation",
+      education: "Education",
+      contact: "Contact"
+    },
     contacts: [
       { label: "Email", value: "luwb@cqupt.edu.cn", href: "mailto:luwb@cqupt.edu.cn" },
       { label: "ORCID", value: "0000-0003-3697-1493", href: "https://orcid.org/0000-0003-3697-1493" },
       { label: "Google Scholar", value: "Wenbo Lu", href: "https://scholar.google.com/scholar?q=Wenbo+Lu+transportation" }
-    ],
-    metrics: [
-      { value: "20", label: "Publications" },
-      { value: "9", label: "First/Corresponding-author papers" },
-      { value: "50+", label: "Cumulative impact factors" }
     ],
     research: [
       {

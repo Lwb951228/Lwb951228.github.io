@@ -8,58 +8,39 @@
     <link rel="stylesheet" href="styles.css">
   </head>
   <body>
-    <header class="topbar">
-      <a class="brand" href="#home" aria-label="Wenbo Lu homepage">
-        <span class="brand-mark">WL</span>
-        <span>Wenbo Lu</span>
-      </a>
-      <nav class="nav" aria-label="Primary navigation"></nav>
-      <button class="language-toggle" type="button" aria-label="Switch language"></button>
-    </header>
-
     <main id="home" class="page-shell">
       <aside class="profile-panel" aria-label="Profile">
+        <a class="site-title" href="#home">Wenbo Lu</a>
         <img class="portrait" src="assets/portrait.jpeg" alt="Portrait of Wenbo Lu">
-        <p class="profile-kicker" data-field="altName"></p>
         <h1 data-field="name"></h1>
+        <p class="profile-kicker" data-field="altName"></p>
         <p class="profile-title" data-field="title"></p>
         <p class="profile-affiliation" data-field="affiliation"></p>
         <p class="profile-location" data-field="location"></p>
+        <nav class="nav" aria-label="Primary navigation"></nav>
+        <button class="language-toggle" type="button" aria-label="Switch language"></button>
         <div class="contact-list"></div>
       </aside>
 
       <div class="content-flow">
-        <section class="hero-section" aria-labelledby="intro-title">
-          <div>
-            <p class="section-label">Academic Homepage</p>
-            <h2 id="intro-title" data-field="title"></h2>
-            <p class="summary" data-field="summary"></p>
-          </div>
-          <div class="metrics" aria-label="Academic metrics"></div>
+        <section class="section-block about-section" aria-labelledby="about-title">
+          <h2 id="about-title" data-heading="about"></h2>
+          <p class="summary" data-field="summary"></p>
         </section>
 
         <section id="research" class="section-block" aria-labelledby="research-title">
-          <div class="section-heading">
-            <p class="section-label">01</p>
-            <h2 id="research-title">Research Focus</h2>
-          </div>
-          <div class="research-grid"></div>
+          <h2 id="research-title" data-heading="research"></h2>
+          <ul class="research-list"></ul>
         </section>
 
         <section id="publications" class="section-block split-section" aria-labelledby="publications-title">
-          <div class="section-heading">
-            <p class="section-label">02</p>
-            <h2 id="publications-title">Selected Publications</h2>
-            <p class="intro-copy" data-field="publicationsIntro"></p>
-          </div>
+          <h2 id="publications-title" data-heading="publications"></h2>
+          <p class="intro-copy" data-field="publicationsIntro"></p>
           <div class="publication-years"></div>
         </section>
 
         <section class="section-block dissertation-block" aria-labelledby="dissertation-title">
-          <div class="section-heading">
-            <p class="section-label">03</p>
-            <h2 id="dissertation-title"></h2>
-          </div>
+          <h2 id="dissertation-title" data-heading="dissertation"></h2>
           <div class="dissertation-card">
             <h3></h3>
             <ul></ul>
@@ -67,14 +48,12 @@
         </section>
 
         <section id="experience" class="section-block" aria-labelledby="experience-title">
-          <div class="section-heading">
-            <p class="section-label">04</p>
-            <h2 id="experience-title">Education</h2>
-          </div>
+          <h2 id="experience-title" data-heading="education"></h2>
           <div class="timeline"></div>
         </section>
 
         <section id="contact" class="section-block closing-section" aria-label="Contact">
+          <h2 data-heading="contact"></h2>
           <p class="update-note" data-field="updateNote"></p>
         </section>
       </div>
