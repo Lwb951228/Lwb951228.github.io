@@ -1,6 +1,6 @@
 const siteContent = {
   zh: {
-    nav: ["首页", "研究方向", "论文", "教育经历", "联系"],
+    nav: ["首页", "研究方向", "论文", "教育经历"],
     langLabel: "中文 / EN",
     name: "鲁文博",
     altName: "Wenbo Lu",
