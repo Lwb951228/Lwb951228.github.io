@@ -164,6 +164,16 @@ a:hover {
   color: var(--ink);
 }
 
+.summary,
+.research-item p,
+.publication-list p,
+.dissertation-card li,
+.timeline-item p,
+.update-note {
+  text-align: justify;
+  text-justify: inter-ideograph;
+}
+
 .research-list {
   display: grid;
   gap: 18px;
