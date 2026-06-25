@@ -165,12 +165,36 @@ a:hover {
 }
 
 .research-list {
+  display: grid;
+  gap: 18px;
   margin: 0;
-  padding-left: 22px;
+  padding: 0;
+  list-style: none;
 }
 
-.research-list li {
-  margin-bottom: 10px;
+.research-item {
+  display: grid;
+  grid-template-columns: 180px minmax(0, 1fr);
+  gap: 16px;
+  align-items: start;
+}
+
+.research-item img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  border: 1px solid var(--line);
+  background: #f2f2f2;
+}
+
+.research-item strong {
+  display: block;
+  margin-bottom: 4px;
+}
+
+.research-item p {
+  margin: 0;
 }
 
 .publication-years {
@@ -296,9 +320,14 @@ a:hover {
   }
 
   .publication-year,
-  .timeline-item {
+  .timeline-item,
+  .research-item {
     grid-template-columns: 1fr;
     gap: 6px;
+  }
+
+  .research-item img {
+    max-width: 420px;
   }
 }
 

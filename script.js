@@ -18,6 +18,8 @@ function render() {
     node.textContent = content.headings[key] || "";
   });
 
+  $(".summary").innerHTML = content.summaryHtml || "";
+
   $(".language-toggle").textContent = content.langLabel;
   $(".nav").innerHTML = content.nav
     .map((item, index) => {
@@ -31,7 +33,17 @@ function render() {
     .join("");
 
   $(".research-list").innerHTML = content.research
-    .map((item) => `<li><strong>${item.title}.</strong> ${item.text}</li>`)
+    .map(
+      (item) => `
+        <li class="research-item">
+          <img src="${item.image}" alt="${item.alt}" loading="lazy">
+          <div>
+            <strong>${item.title}.</strong>
+            <p>${item.text}</p>
+          </div>
+        </li>
+      `
+    )
     .join("");
 
   const groupedPublications = content.publications.reduce((groups, item) => {

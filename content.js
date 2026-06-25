@@ -4,11 +4,11 @@ const siteContent = {
     langLabel: "中文 / EN",
     name: "鲁文博",
     altName: "Wenbo Lu",
-    title: "交通运输工程研究者",
-    affiliation: "重庆邮电大学",
+    title: "文峰副教授",
+    affiliation: "重庆邮电大学现代邮政学院",
     location: "中国 重庆",
-    summary:
-      "研究方向包括无人系统规划控制、人工智能在物流与交通领域的应用，以及城市货运电气化。博士阶段围绕城市绿色货运配送、新能源车辆轨迹数据挖掘、轨道交通客流预测与无人机-车辆协同优化开展研究。",
+    summaryHtml:
+      '我是重庆邮电大学现代邮政学院文峰副教授，东南大学交通运输博士。主要研究方向包括 <a href="https://scholar.google.com.hk/citations?view_op=search_authors&hl=zh-CN&mauthors=label:unmanned_system" target="_blank" rel="noreferrer">Unmanned System</a>, <a href="https://scholar.google.com.hk/citations?view_op=search_authors&hl=zh-CN&mauthors=label:intelligent_freight" target="_blank" rel="noreferrer">Intelligent freight</a>, <a href="https://scholar.google.com.hk/citations?view_op=search_authors&hl=zh-CN&mauthors=label:low_altitude_transportation" target="_blank" rel="noreferrer">Low-altitude transportation</a> 等。',
     headings: {
       about: "个人简介",
       research: "研究方向",
@@ -24,19 +24,25 @@ const siteContent = {
     ],
     research: [
       {
-        title: "城市绿色货运配送电气化",
+        title: "Unmanned System",
         text:
-          "基于新能源货运车辆轨迹数据，研究停止行程提取、SOC预测、临时停靠点布局、地理围栏生成与充电风险评估。"
+          "面向电力巡检、低空物流与交通感知场景，研究无人机-车辆协同、路径规划、群组化作业与复杂环境下的系统优化。",
+        image: "assets/research/unmanned-system.png",
+        alt: "无人系统交通研究示意图"
       },
       {
-        title: "人工智能赋能交通运输",
+        title: "Intelligent freight",
         text:
-          "利用深度学习、图神经网络、多时间粒度建模和多源数据融合方法，预测城市轨道交通客流与道路转向交通流。"
+          "围绕城市绿色货运配送、新能源车辆轨迹数据、SOC预测、临时停靠点布局与智能调度，构建数据驱动的货运优化方法。",
+        image: "assets/research/intelligent-freight.png",
+        alt: "智能货运与城市配送研究示意图"
       },
       {
-        title: "无人机-车辆协同系统",
+        title: "Low-altitude transportation",
         text:
-          "面向电力巡检和低空物流场景，研究考虑风场影响、终端接载模式和群组化作业的 UAV-Vehicle 系统优化。"
+          "关注低空经济背景下的城市空中交通、低空物流网络、地面交通协同以及低空运输系统规划与运行管理。",
+        image: "assets/research/low-altitude-transportation.png",
+        alt: "低空交通运输研究示意图"
       }
     ],
     education: [
@@ -134,11 +140,11 @@ const siteContent = {
     langLabel: "EN / 中文",
     name: "Wenbo Lu",
     altName: "鲁文博",
-    title: "Researcher in Transportation Engineering",
-    affiliation: "Chongqing University of Posts and Telecommunications",
+    title: "Wenfeng Associate Professor",
+    affiliation: "School of Modern Posts, Chongqing University of Posts and Telecommunications",
     location: "Chongqing, China",
-    summary:
-      "My research interests include unmanned-system planning and control, artificial intelligence for logistics and transportation, and the electrification of urban freight delivery. My doctoral research spans urban green freight delivery, electric-vehicle trajectory mining, metro passenger-flow prediction, and UAV-vehicle collaborative optimization.",
+    summaryHtml:
+      'I am a Wenfeng Associate Professor at the School of Modern Posts, Chongqing University of Posts and Telecommunications. I received my Ph.D. in Transportation from Southeast University. My research interests include <a href="https://scholar.google.com.hk/citations?view_op=search_authors&hl=zh-CN&mauthors=label:unmanned_system" target="_blank" rel="noreferrer">Unmanned System</a>, <a href="https://scholar.google.com.hk/citations?view_op=search_authors&hl=zh-CN&mauthors=label:intelligent_freight" target="_blank" rel="noreferrer">Intelligent freight</a>, and <a href="https://scholar.google.com.hk/citations?view_op=search_authors&hl=zh-CN&mauthors=label:low_altitude_transportation" target="_blank" rel="noreferrer">Low-altitude transportation</a>.',
     headings: {
       about: "About Me",
       research: "Research Interests",
@@ -154,19 +160,25 @@ const siteContent = {
     ],
     research: [
       {
-        title: "Electric Urban Green Freight Delivery",
+        title: "Unmanned System",
         text:
-          "Data-driven methods for electric freight-vehicle trajectory mining, stop-trip extraction, next-trip SOC prediction, temporary loading-zone layout, geofence generation, and charging-risk assessment."
+          "UAV-vehicle collaboration, path planning, group-based operations, and system optimization for power inspection, low-altitude logistics, and transportation sensing.",
+        image: "assets/research/unmanned-system.png",
+        alt: "Illustration of unmanned-system transportation research"
       },
       {
-        title: "AI for Transportation",
+        title: "Intelligent freight",
         text:
-          "Deep learning, graph neural networks, multi-granularity modeling, and multi-source data fusion for metro passenger-flow and turning-traffic prediction."
+          "Data-driven optimization for urban green freight delivery, electric freight-vehicle trajectory mining, SOC prediction, temporary loading-zone layout, and intelligent dispatching.",
+        image: "assets/research/intelligent-freight.png",
+        alt: "Illustration of intelligent urban freight research"
       },
       {
-        title: "UAV-Vehicle Collaborative Systems",
+        title: "Low-altitude transportation",
         text:
-          "Optimization of UAV-vehicle systems under wind effects, terminal pickup modes, and group-based operations for power inspection and low-altitude logistics."
+          "Urban air mobility, low-altitude logistics networks, air-ground transportation coordination, and planning and operations of low-altitude transportation systems.",
+        image: "assets/research/low-altitude-transportation.png",
+        alt: "Illustration of low-altitude transportation research"
       }
     ],
     education: [
