@@ -3,7 +3,22 @@ const state = {
 };
 
 const $ = (selector) => document.querySelector(selector);
+function escapeHtml(text) {
+  return text
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;")
+    .replace(/"/g, "&quot;")
+    .replace(/'/g, "&#039;");
+}
 
+function highlightAuthor(text) {
+  const escaped = escapeHtml(text);
+  return escaped.replace(
+    /\b(Wenbo\s+LU|Wenbo\s+Lu|Lu\s*,?\s*W\.?|Lu\s+W\*?|鲁文博)\b/g,
+    '<strong class="author-me">$1</strong>'
+  );
+}
 function render() {
   const content = siteContent[state.lang];
   document.documentElement.lang = state.lang === "zh" ? "zh-CN" : "en";
@@ -39,7 +54,7 @@ function render() {
           <img src="${item.image}" alt="${item.alt}" loading="lazy">
           <div>
             <strong>${item.title}.</strong>
-            <p>${item.text}</p>
+            <p>${highlightAuthor(item.text)}</p>
           </div>
         </li>
       `
