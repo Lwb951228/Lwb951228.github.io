@@ -7,7 +7,7 @@ const siteContent = {
     affiliation: "重庆邮电大学现代邮政学院",
     location: "中国 重庆",
     summaryHtml:
-      '我是重庆邮电大学现代邮政学院文峰副教授(讲师)，东南大学交通运输博士。主要研究方向包括Unmanned System,Intelligent freight, Low-altitude transportation 等。',
+      '我是重庆邮电大学现代邮政学院文峰副教授(讲师)，东南大学交通运输博士。主要研究方向包括Unmanned System,Intelligent freight, Deep learning for urban logistics 等。',
     headings: {
       about: "个人简介",
       research: "研究方向",
@@ -36,11 +36,11 @@ const siteContent = {
         alt: "智能货运与城市配送研究示意图"
       },
       {
-        title: "Low-altitude transportation",
+        title: "Deep learning for urban logistics",
         text:
-          "关注低空经济背景下的城市空中交通、低空物流网络、地面交通协同以及低空运输系统规划与运行管理。",
-        image: "assets/research/low-altitude-transportation.png",
-        alt: "低空交通运输研究示意图"
+          "面向城市物流需求预测、新能源货运车辆轨迹挖掘、路径优化、充电行为分析与智能货运调度，研究深度学习驱动的城市物流优化方法。",
+        image: "assets/research/deep-learning-urban-logistics.png",
+        alt: "深度学习赋能城市物流研究示意图"
       }
     ],
     education: [
@@ -137,7 +137,7 @@ const siteContent = {
     affiliation: "School of Modern Posts, Chongqing University of Posts and Telecommunications",
     location: "Chongqing, China",
     summaryHtml:
-      "I am a Wenfeng Associate Professor(Lecturer) at the School of Modern Posts, Chongqing University of Posts and Telecommunications. I received my Ph.D. in Transportation from Southeast University. My research interests include Unmanned System, Intelligent freight, and Low-altitude transportation.",
+      "I am a Wenfeng Associate Professor(Lecturer) at the School of Modern Posts, Chongqing University of Posts and Telecommunications. I received my Ph.D. in Transportation from Southeast University. My research interests include Unmanned System, Intelligent freight, and Deep learning for urban logistics.",
     headings: {
       about: "About Me",
       research: "Research Interests",
@@ -166,11 +166,11 @@ const siteContent = {
         alt: "Illustration of intelligent urban freight research"
       },
       {
-        title: "Low-altitude transportation",
+        title: "Deep learning for urban logistics",
         text:
-          "Urban air mobility, low-altitude logistics networks, air-ground transportation coordination, and planning and operations of low-altitude transportation systems.",
-        image: "assets/research/low-altitude-transportation.png",
-        alt: "Illustration of low-altitude transportation research"
+          "Deep learning methods for urban logistics demand prediction, electric freight-vehicle trajectory mining, route optimization, charging behavior analysis, and intelligent freight dispatching.",
+        image: "assets/research/deep-learning-urban-logistics.png",
+        alt: "Illustration of deep learning for urban logistics research"
       }
     ],
     education: [
