@@ -54,7 +54,7 @@ const siteContent = {
         year: "2026",
         tag: "Electric Power Systems Research",
         text:
-          "Xu J, Luo Y, <b>Lu W</b>, et al. Optimization of Group-Based UAV-Vehicle Systems for Power Inspection with Wind Effects and Terminal Pickup Mode. Electric Power Systems Research, 260, 113309."
+          "Xu J, Luo Y, Lu W, et al. Optimization of Group-Based UAV-Vehicle Systems for Power Inspection with Wind Effects and Terminal Pickup Mode. Electric Power Systems Research, 260, 113309."
       },
       {
         year: "2025",
