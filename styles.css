@@ -142,7 +142,10 @@ a:hover {
   padding-bottom: 28px;
   border-bottom: 1px solid var(--line);
 }
-
+.author-me {
+  color: #000000;
+  font-weight: 800;
+}
 .section-block h2 {
   margin: 0 0 14px;
   padding-bottom: 6px;
