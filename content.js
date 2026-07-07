@@ -166,7 +166,7 @@ const siteContent = {
         alt: "Illustration of intelligent urban freight research"
       },
       {
-        title: "Deep learning for urban logistics",
+        title: "AI for logistics",
         text:
           "Deep learning methods for urban logistics demand prediction, electric freight-vehicle trajectory mining, route optimization, charging behavior analysis, and intelligent freight dispatching.",
         image: "assets/research/deep-learning-urban-logistics.png",
