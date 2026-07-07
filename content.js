@@ -7,7 +7,7 @@ const siteContent = {
     affiliation: "重庆邮电大学现代邮政学院",
     location: "中国 重庆",
     summaryHtml:
-      '我是重庆邮电大学现代邮政学院文峰副教授(讲师)，东南大学交通运输博士。主要研究方向包括Unmanned System,Intelligent freight, Deep learning for urban logistics 等。',
+      '我是重庆邮电大学现代邮政学院文峰副教授(讲师)，东南大学交通运输博士。主要研究方向包括Unmanned System, Intelligent freight, AL for logistics 等。',
     headings: {
       about: "个人简介",
       research: "研究方向",
@@ -36,7 +36,7 @@ const siteContent = {
         alt: "智能货运与城市配送研究示意图"
       },
       {
-        title: "Deep learning for urban logistics",
+        title: "AI for logistics",
         text:
           "面向城市物流需求预测、新能源货运车辆轨迹挖掘、路径优化、充电行为分析与智能货运调度，研究深度学习驱动的城市物流优化方法。",
         image: "assets/research/deep-learning-urban-logistics.png",
@@ -137,7 +137,7 @@ const siteContent = {
     affiliation: "School of Modern Posts, Chongqing University of Posts and Telecommunications",
     location: "Chongqing, China",
     summaryHtml:
-      "I am a Wenfeng Associate Professor(Lecturer) at the School of Modern Posts, Chongqing University of Posts and Telecommunications. I received my Ph.D. in Transportation from Southeast University. My research interests include Unmanned System, Intelligent freight, and Deep learning for urban logistics.",
+      "I am a Wenfeng Associate Professor(Lecturer) at the School of Modern Posts, Chongqing University of Posts and Telecommunications. I received my Ph.D. in Transportation from Southeast University. My research interests include Unmanned System, Intelligent freight, and AI for logistics.",
     headings: {
       about: "About Me",
       research: "Research Interests",
